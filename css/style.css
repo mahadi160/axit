@@ -1,0 +1,179 @@
+.navbar {
+  background: #000;
+  border-bottom: 2px solid #7f7f7f; }
+  .navbar .nav-item {
+    padding-left: 30px;
+    font-weight: 600; }
+
+#home-section {
+  background: url("../img/hero.png");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 520px; }
+  #home-section img {
+    width: 170px;
+    height: 60px; }
+  #home-section h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    width: 70px;
+    margin: left;
+    margin-top: 40px; }
+  #home-section .card span {
+    color: #FF8B38; }
+  #home-section .card .btn {
+    background: #FF8B38;
+    border-color: #FF8B38; }
+
+#header-icon {
+  border-bottom: 1px solid #b7b7b7; }
+  #header-icon .fa {
+    font-size: 40px;
+    color: #cccccc; }
+  #header-icon .fa:hover {
+    color: #666666; }
+
+#features {
+  background: #f5f5f5; }
+  #features .btn {
+    border-radius: 0; }
+  #features h5::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #FF8B38;
+    width: 70px;
+    margin: left;
+    margin: 20px 0; }
+  #features .btn-1 {
+    background: #FF8B38;
+    border-radius: 0; }
+
+#about img {
+  box-shadow: 1px 5px 10px -2px #333; }
+
+#about h5::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: left;
+  margin: 20px 0; }
+
+#about .fa {
+  border: 2px solid #FF8B38;
+  color: #FF8B38;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 30px; }
+
+#pictiure-section h4::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: left;
+  margin: 20px 0; }
+
+#awesome h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: auto;
+  margin-top: 25px; }
+
+#awesome .fa {
+  font-size: 30px;
+  border: 2px solid #FF8B38;
+  border-radius: 50%;
+  color: #FF8B38; }
+
+#pricing h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: auto;
+  margin-top: 25px; }
+
+#pricing .card-header {
+  border-bottom: 1px solid #fff; }
+
+#pricing span {
+  font-size: 60px; }
+
+#pricing .card-title {
+  border-bottom: 5px solid #FF8B38; }
+  #pricing .card-title .card-footer {
+    background: #FF8B38; }
+
+#reviews h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: auto;
+  margin-top: 25px; }
+
+#reviews .review-text {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 20% 90%, 15% 100%, 14% 90%, 0 90%); }
+
+#reviews img {
+  width: 70px;
+  height: 70px; }
+
+#axure {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+  #axure h2::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px; }
+  #axure .btn {
+    border-radius: 0; }
+
+#contact h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #FF8B38;
+  width: 70px;
+  margin: auto;
+  margin-top: 25px; }
+
+#contact .btn {
+  background: #FF8B38; }
+
+#footer {
+  background: #000; }
+  #footer .fa {
+    font-size: 25px;
+    color: #cccccc; }
+  #footer .fa:hover {
+    color: #666666; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #features .btn-tab {
+    display: inline-block; }
+    #features .btn-tab a {
+      padding: 30px; } }
+
+@media (max-width: 480px) {
+  #header-icon .fa {
+    font-size: 20px; }
+  #awesome h2 {
+    font-size: 25px; } }

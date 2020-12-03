@@ -1,0 +1,233 @@
+$btn-color: #FF8B38;
+$icon-size: 40px;
+
+.navbar{
+  background: #000;
+  border-bottom: 2px solid #7f7f7f;
+  .nav-item{
+    padding-left: 30px;
+    font-weight: 600;
+  }
+}
+
+#home-section{
+  background: url('../img/hero.png');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 520px;
+  img{
+    width: 170px;
+    height: 60px;
+  }
+  h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    width: 70px;
+    margin: left;
+    margin-top: 40px;
+  }
+  .card{
+    span{
+      color: $btn-color;
+    }
+    .btn{
+      background: $btn-color;
+      border-color:$btn-color;
+    }
+  }
+}
+
+#header-icon {
+  border-bottom: 1px solid #b7b7b7;
+  .fa {
+    font-size: $icon-size;
+    color: #cccccc;
+  }
+  .fa:hover {
+    color: rgb(102, 102, 102);
+  }
+}
+
+#features{
+  background: #f5f5f5;
+  .btn{
+    border-radius: 0;
+  }
+  h5::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: left;
+    margin: 20px 0;
+  }
+  .btn-1 {
+    background: $btn-color;
+    border-radius: 0;
+  }
+}
+
+#about{
+  img {
+    box-shadow: 1px 5px 10px -2px #333;
+  }
+  h5::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: left;
+    margin: 20px 0;
+  }
+  .fa {
+    border: 2px solid $btn-color;
+    color: $btn-color;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+}
+#pictiure-section{
+
+  h4::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: left;
+    margin: 20px 0;
+  }
+}
+#awesome{
+  h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .fa {
+    font-size: 30px;
+    border: 2px solid $btn-color;
+    border-radius: 50%;
+    color: $btn-color;
+  }
+}
+#pricing {
+  h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .card-header{
+    border-bottom: 1px solid #fff;
+  }
+  span{
+    font-size: 60px;
+  }
+  .card-title{
+    border-bottom: 5px solid $btn-color;
+    .card-footer{
+      background: $btn-color;
+    }
+  }
+}
+#reviews{
+  h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .review-text{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 20% 90%, 15% 100%, 14% 90%, 0 90%);
+  }
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+#axure{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+  h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .btn {
+    border-radius: 0;
+  }
+}
+#contact {
+  h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: $btn-color;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .btn {
+    background: $btn-color;
+  }
+}
+#footer {
+  background: #000;
+  .fa {
+    font-size: 25px;
+    color: #cccccc;
+  }
+  .fa:hover {
+    color: rgb(102, 102, 102);
+  }
+}
+
+
+
+
+@media(max-width: 767px){
+  .nav-item {
+    padding-left: 0 !important;
+  }
+  #features{
+    .btn-tab {
+      display: inline-block;
+      a {
+        padding: 30px;
+      }
+    }
+  }
+}
+@media(max-width: 480px){
+  #header-icon {
+    .fa {
+      font-size: 20px;
+    }
+  }
+  #awesome{
+    h2{
+      font-size: 25px;
+    }
+  }
+}
